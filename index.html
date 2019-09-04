@@ -6,6 +6,7 @@
 <title>Oshine 33</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -38,19 +39,19 @@
         <a class="nav-link" href="#">Services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="contact-us.html">Contact Us</a>
       </li>
     </ul>
       
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="#">F</a>
+            <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">T</a>
+            <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">P</a>
+            <a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>
         </li>
     </ul>
 
@@ -59,14 +60,63 @@
         </div>
     </header>
     
-    <section id="home">
-        <div class="container">
-            <h1>We Build Stunning <span>Websites</span></h1>
-            <p>Oshine comes with 27 unique and stunning demos. We have crafted<br> each and every demo with extensive care and precision.</p>
-            <a href="#" class="btn btn-light">Start Now</a>
+    <section id="home" class="bg-home">
+        <div class="overlay">
+            <div class="container">
+                <h1>We Build Stunning <span>Websites</span></h1>
+                <p>Oshine comes with 27 unique and stunning demos. We have crafted<br> each and every demo with extensive care and precision.</p>
+                <a href="#" class="btn btn-light">Start Now</a>              
+            </div>
         </div>
     </section>
     
+    <section id="works" class="section">
+        <div class="container">
+            <h2 class="titulo">Our Recent Works</h2>
+            <h3 class="subtitulo">These are some of our more recent and appreciated works by our clients</h3>
+                
+            <div class="row">
+                <article class="col-md-4 col-sm-12">
+                    <div class="work">
+                        <img src="img/work-1.jpg" class="img-fluid" alt="work1">
+                        
+                        <div class="work-frame">
+                            <div class="work-fondo"></div>
+                            <div class="work-texto">
+                                <h5>Frock</h5>
+                                <h6>Mobile - Web</h6>
+                            </div>
+                        </div>    
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-12">
+                    <div class="work">
+                        <img src="img/work-2.jpg" class="img-fluid" alt="work1">
+                        
+                        <div class="work-bottom">
+                            <h5>Escape</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-12">
+                    <img src="img/work-3.jpg" class="img-fluid" alt="work1">
+                </article>
+            </div>
+            
+            <div class="row mt-3">
+                <article class="col-md-4 col-sm-12">
+                    <img src="img/work-4.jpg" class="img-fluid" alt="work1">
+                </article>
+                <article class="col-md-4 col-sm-12">
+                    <img src="img/work-5.jpg" class="img-fluid" alt="work1">
+                </article>
+                <article class="col-md-4 col-sm-12">
+                    <img src="img/work-6.jpg" class="img-fluid" alt="work1">
+                </article>
+            </div>
+        
+        </div>
+    </section>
     
     <section id="testimonials" class="section">
         <div class="container">
@@ -124,7 +174,16 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146943387-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146943387-1');
+</script>
+
     
     
 </body>
